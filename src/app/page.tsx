@@ -21,6 +21,7 @@ import {
 } from "lucide-react";
 import Link from "next/link";
 import { useRef } from "react";
+import { Button } from "@/components/ui/button";
 
 export default function CreativeLandingPage() {
   const targetRef = useRef(null);
@@ -222,9 +223,9 @@ export default function CreativeLandingPage() {
               <div className="flex flex-col">
                 <span className="text-[10px] text-slate-500 font-bold tracking-[0.2em] uppercase mb-1">Gateway Hub</span>
                 <div className="flex items-center gap-4">
-                  <Smartphone className="w-5 h-5 text-indigo-400" title="UPI Support" />
-                  <CreditCard className="w-5 h-5 text-indigo-400" title="Card Payments" />
-                  <Globe className="w-5 h-5 text-indigo-400" title="Net Banking" />
+                  <Smartphone className="w-5 h-5 text-indigo-400" />
+                  <CreditCard className="w-5 h-5 text-indigo-400" />
+                  <Globe className="w-5 h-5 text-indigo-400" />
                 </div>
               </div>
               <div className="w-px h-8 bg-white/10" />
